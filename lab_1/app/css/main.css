@@ -1,0 +1,296 @@
+/**
+ * Global Reset of all HTML Elements
+ *
+ * Resetting all of our HTML Elements ensures a smoother
+ * visual transition between browsers. If you don't believe me,
+ * try temporarily commenting out this block of code, then go
+ * and look at Mozilla versus Safari, both good browsers with
+ * a good implementation of CSS. The thing is, all browser CSS
+ * defaults are different and at the end of the day if visual
+ * consistency is what we're shooting for, then we need to
+ * make sure we're resetting all spacing elements.
+ *
+ */
+html,
+body {
+  border: 0;
+  font-family: "Helvetica-Neue", "Helvetica", Arial, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div,
+span,
+object,
+iframe,
+img,
+table,
+caption,
+thead,
+tbody,
+tfoot,
+tr,
+tr,
+td,
+article,
+aside,
+canvas,
+details,
+figure,
+hgroup,
+menu,
+nav,
+footer,
+header,
+section,
+summary,
+mark,
+audio,
+video {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+address,
+cit,
+code,
+del,
+dfn,
+em,
+ins,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+b,
+i,
+hr,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+legend,
+label {
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+article,
+aside,
+canvas,
+figure,
+figure img,
+figcaption,
+hgroup,
+footer,
+header,
+nav,
+section,
+audio,
+video {
+  display: block;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+table caption,
+table th,
+table td {
+  text-align: left;
+  vertical-align: middle;
+}
+a img {
+  border: 0;
+}
+:focus {
+  outline: 0;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+/* const */
+/* global */
+html,
+body {
+  font: 400 13px arial;
+}
+h1 {
+  font-size: 48px;
+}
+h2 {
+  font-size: 24px;
+}
+h3 {
+  font-size: 18px;
+}
+h4 {
+  font-size: 14px;
+}
+h5 {
+  font-size: 13px;
+}
+p {
+  font-size: 14px;
+}
+a {
+  color: #03A9F4;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.container {
+  margin: 0 auto;
+  width: 1024px;
+}
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+/* content */
+nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding-top: 80px;
+  width: 200px;
+  height: 100vh;
+  padding-left: 40px;
+  background: #F5F5F5;
+}
+nav ul {
+  margin-top: 10px;
+}
+nav ul li {
+  margin-top: 10px;
+  padding-left: 10px;
+  font-size: 14px;
+}
+nav ul li.active {
+  font-weight: 700;
+}
+.page {
+  padding-left: 200px;
+}
+.page header {
+  text-align: center;
+  width: 100%;
+  height: 300px;
+  background: url(../img/header.png) no-repeat center 90%;
+  background-size: 100%;
+}
+.page .content {
+  margin-top: 20px;
+}
+.page .content p {
+  display: inline-block;
+  vertical-align: top;
+  line-height: 1.4;
+  width: 60%;
+  padding: 10px 20px 0 0;
+}
+.page .content .content-image {
+  display: inline-block;
+  margin-left: 5%;
+}
+.page .content .content-image.autor {
+  width: 140px;
+  height: 140px;
+  background: url(../img/person.jpg) no-repeat;
+  background-size: 100%;
+  border-radius: 50%;
+  border: 3px solid #F5F5F5;
+}
+.page .content .content-image.event {
+  width: 30%;
+  height: 140px;
+  background: url(../img/news.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+.page .content .news-block {
+  padding: 20px;
+  border-bottom: 1px solid #9E9E9E;
+}
+.page .content .news-block img {
+  display: inline-block;
+  margin-left: 5%;
+  width: 20%;
+  height: 100px;
+}
+.page .content .news-block .more {
+  padding-top: 20px;
+}
+.page .content .news-block .more .date {
+  color: #9E9E9E;
+}
+.page .content .news-block .more .autor {
+  display: inline-block;
+  padding-left: 10px;
+}
+.page section {
+  margin-top: 40px;
+}
+.page section ul {
+  margin-top: 40px;
+}
+.page section ul li {
+  padding: 20px 20px 40px;
+  width: 26%;
+  float: left;
+  margin: 0 3.5%;
+  background: #F5F5F5;
+}
+.page section ul li:before {
+  content: "";
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+  background: url(../img/person.jpg) no-repeat;
+  background-size: 100%;
+  border-radius: 50%;
+}
+.page footer {
+  margin-top: 40px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  color: #F5F5F5;
+  background: #9E9E9E;
+}
+.page footer a {
+  color: #F5F5F5;
+  text-decoration: underline;
+}
+.page footer a:hover {
+  text-decoration: none;
+}

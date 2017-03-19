@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<title>application</title>
+</head>
+<body>
+	<form action="">
+		<input id="intNumber" type="number" placeholder="int number" required>
+		<span class="required">*</span>
+		<span id="resultIntNumber"></span>
+		<input id="floatNumber" type="text" placeholder="float number" required>
+		<span class="required">*</span>
+		<span id="resultFloatNumber"></span>
+		<input id="dataNumber" type="text" placeholder="data number" required>
+		<span class="required">*</span>
+		<p id="resultDataNumber"></p>
+		<div class="password">
+			<input id="password" type="password" placeholder="password" required>
+			<span class="required">*</span>
+			<input id="passwordRepeat" type="password" placeholder="passwordRepeat" required>
+			<span class="required">*</span>
+
+			<p id="resultPassword"></p>
+		</div>
+		<button onclick="send()">click me!</button>
+	</form>
+	
+	<script src="scripts/main.js"></script>
+</body>
+</html>

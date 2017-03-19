@@ -1,0 +1,65 @@
+/* const */
+/* global */
+html,
+body {
+  font: 400 13px arial;
+}
+h1 {
+  font-size: 48px;
+}
+h2 {
+  font-size: 24px;
+}
+h3 {
+  font-size: 18px;
+}
+h4 {
+  font-size: 14px;
+}
+h5 {
+  font-size: 13px;
+}
+p {
+  font-size: 14px;
+}
+a {
+  color: #03A9F4;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.container {
+  margin: 0 auto;
+  width: 1024px;
+}
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+/* content */
+form {
+  margin: 0 auto;
+  width: 400px;
+}
+form input {
+  display: inline-block;
+  width: 60%;
+  margin-top: 10px;
+}
+form span {
+  margin-left: 1%;
+  width: 30%;
+  font-weight: 700;
+}
+form button {
+  margin-top: 20px;
+  display: block;
+}
+.required {
+  color: red;
+}
