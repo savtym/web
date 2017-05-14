@@ -2,10 +2,11 @@
 labs for university
 
 
-16 option
+14 option
 
 start:
 	-> got to the folder;
 	-> npm install;
+	-> bower install
 	-> gulp;
 	-> localhost:8888
